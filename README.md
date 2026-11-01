@@ -33,7 +33,10 @@ const BOT_LINK = "https://t.me/demo_barber_bot";
 index.html   — разметка страницы
 style.css    — стили и адаптивность
 script.js    — меню, анимации, аккордеон, форма
+fonts/       — шрифты Inter и Playfair Display (woff2, латиница + кириллица)
 ```
+
+Шрифты лежат локально, внешних запросов к Google Fonts нет. Inter и Playfair Display распространяются по лицензии SIL Open Font License 1.1 (тексты лицензий — в `fonts/`).
 
 ## Запуск
 
