@@ -21,10 +21,10 @@
 
 ## Ссылка на Telegram-бота
 
-Откройте `script.js` и замените `ИМЯ_БОТА` в самом верху файла:
+Кнопки «Записаться» ведут в бота [@demo_barber_bot](https://t.me/demo_barber_bot). Ссылка указана в `index.html` и в самом верху `script.js`:
 
 ```js
-const BOT_LINK = "https://t.me/ИМЯ_БОТА";
+const BOT_LINK = "https://t.me/demo_barber_bot";
 ```
 
 ## Структура
