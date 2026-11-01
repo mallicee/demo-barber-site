@@ -388,6 +388,9 @@ p { margin: 0; }
   .nav__link { font-size: 22px; color: var(--text); }
   .nav__cta { margin-top: 10px; padding: 16px 32px; font-size: 17px; }
   body.menu-open { overflow: hidden; }
+  /* backdrop-filter у шапки делает её «рамкой» для position: fixed,
+     и меню растягивается по шапке, а не по экрану. Пока меню открыто — отключаем. */
+  body.menu-open .header { backdrop-filter: none; -webkit-backdrop-filter: none; }
 
   .hero__inner { grid-template-columns: 1fr; text-align: center; }
   .hero__lead { margin-left: auto; margin-right: auto; }
